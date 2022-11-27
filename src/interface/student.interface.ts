@@ -5,5 +5,5 @@ export interface IsStudent extends Document {
     readonly roleNumber: number;
     readonly class: number;
     readonly gender: string;
-    readonly marks: number
+    readonly marks: number;
 }
