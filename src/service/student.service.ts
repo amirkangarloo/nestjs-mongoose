@@ -20,7 +20,7 @@ export class StudentService {
         }
     }
 
-    public async updateStudent(id: string, msg: UpdateStudentDto): Promise<IsStudent> {
+    public async updateStudentById(id: string, msg: UpdateStudentDto): Promise<IsStudent> {
         try {
             const student = await this.studentModel.findByIdAndUpdate(id, msg, {new: true});
             if (!student) {
