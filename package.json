@@ -1,10 +1,14 @@
 {
   "name": "nest-mongoose",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "description": "Make CRUD API with nestjs framework and mongoose ORM.",
+  "author": "Amir Kangarloo <https://github.com/amirkangarloo>",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/amirkangarloo/nestjs-mongoose"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
